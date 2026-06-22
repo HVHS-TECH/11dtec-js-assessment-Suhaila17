@@ -1,3 +1,16 @@
 console.log("Hello world!")
 
+const NAME_FIELD = document.getElementById("nameField");
+const AGE_FIELD = document.getElementById("ageField");
+const ITEM_FIELD= document.getElementById("itemField");
+const MONEY_FIELD = document.getElementById("moneyField");
 
+function getFormInput(){
+    let userName = (NAME_FIELD.value);
+    OUTPUT.innerHTML = "<p> Your name is " + userName + "</p>";
+    let userAge = Number(AGE_FIELD.value);
+    OUTPUT.innerHTML += "<p> Your age is " + userAge + "</p>";
+    let userProduct = (ITEM_FIELD.value);
+    OUTPUT.innerHTML += "<p> Your product is " + userProduct + "</p>" ;
+    let userMoney = Number(MONEY_FIELD.value);
+    OUTPUT.innerHTML += "<p> You have $" + userMoney + "</p>"; }
