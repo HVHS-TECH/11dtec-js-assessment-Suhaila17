@@ -6,7 +6,7 @@ const AGE_FIELD = document.getElementById("ageField");
 const ITEM_FIELD = document.getElementById("itemField");
 const MONEY_FIELD = document.getElementById("moneyField");
 
-function start(){
+function Order(){
 function getFormInput(){
     let userName = (NAME_FIELD.value);
     OUTPUT.innerHTML = "<p> Your name is " + userName + "</p>";
