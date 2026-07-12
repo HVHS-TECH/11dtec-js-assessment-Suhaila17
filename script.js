@@ -1,4 +1,4 @@
-console.log("Hello world!")
+console.log("R!")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
