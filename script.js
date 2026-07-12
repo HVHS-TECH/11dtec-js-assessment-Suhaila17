@@ -1,4 +1,4 @@
-console.log("Running MenuScript.js!")
+console.log("Running OrderScript.js!")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
