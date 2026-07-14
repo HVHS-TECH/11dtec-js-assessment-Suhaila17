@@ -21,16 +21,16 @@ function addOrder(cakeName, cakePrice){
 }
 
 function placeOrder(){
-    const userName = document.getElementById(nameField).value;
-    const money = document.getElementById(moneyField).value;
+    const userName = document.getElementById("nameField").value;
+    const money = document.getElementById("moneyField").value;
 
     if(userName == ""){
-        document.getElementById("recipt").innerHTML = "Please enter your name."
+        document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
     
     if(money < totalPrice){
-        document.getElementById("recipt").innerHTML = "Not enough money."
+        document.getElementById("receipt").innerHTML = "Not enough money."
         return;
     }
 }
