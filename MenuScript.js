@@ -48,4 +48,11 @@ document.getElementById("receipt").innerHTML =
 "<h2>Receipt</h2>" + "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<p> Total: $" + totalPrice + "</p>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
 }
 
+function resetOrder(){
+    order = [];
+    totalPrice = 0;
 
+    document.getElementById("Order").innerHTML = "";
+    document.getElementById("total").innerHTML = "Total: $0";
+    document.getElementById("receipt").innerHTML = "";
+}
