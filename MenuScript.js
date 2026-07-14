@@ -10,4 +10,4 @@ const menuItems = [
 ];
 
 let order = [];
-let totalPrice
+let totalPrice = 0;
