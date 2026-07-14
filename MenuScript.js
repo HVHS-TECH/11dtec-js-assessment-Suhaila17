@@ -6,5 +6,5 @@ const menu = {
     cookiesCream:{name:"Cookies and Cream Red velvet Cake", price:23},
     dessertCup:{name:"Dessert Cup", price:10},
     shortcake:{name:"Strawberry Shortcake", price:20},
-
+    
 }
