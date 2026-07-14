@@ -11,3 +11,7 @@ const menuItems = [
 
 let order = [];
 let totalPrice = 0;
+
+function addOrder(cake){
+    
+}
