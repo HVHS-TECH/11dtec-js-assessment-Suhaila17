@@ -6,7 +6,7 @@ const menuItems = [
   {name:"Cookies and Cream Red velvet Cake", price:23},
   {name:"Dessert Cup", price:10},
   {name:"Strawberry Shortcake", price:20},
-  {name:"White Velvet Bliss Cake"}
+  {name:"White Velvet Bliss Cake", price:26}
 ];
 
 let order = [];
