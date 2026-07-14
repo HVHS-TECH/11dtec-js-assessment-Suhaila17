@@ -29,5 +29,7 @@ function placeOrder(){
         return;
     }
     
-    if(money < totalPrice){}
+    if(money < totalPrice){
+        document.getElementById("recipt").innerHTML
+    }
 }
