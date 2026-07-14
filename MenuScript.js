@@ -29,4 +29,5 @@ function placeOrder(){
         return;
     }
     
+    if(money < totalPrice){}
 }
