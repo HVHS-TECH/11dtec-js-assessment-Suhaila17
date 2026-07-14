@@ -33,9 +33,17 @@ function placeOrder(){
         document.getElementById("receipt").innerHTML = "Not enough money."
         return;
     }
-}
+
 
 let change = money - totalPrice;
 let receiptOrder = "";
 
-for
+for(let item = 0; item < order.length; item++){
+    receiptOrder += order[item].name + " $" + order[item].price + "<br>";
+
+
+}
+
+document.getElementById("receipt").innerHTML
+"<h2>Receipt</h2>" + "<p>Name:" + userName + "</p>" + "<p>" + receiptOrder + "</p>"
+}
