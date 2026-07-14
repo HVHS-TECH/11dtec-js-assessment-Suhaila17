@@ -34,3 +34,7 @@ function placeOrder(){
         return;
     }
 }
+
+let change = money - totalPrice;
+let receiptOrder = "";
+
