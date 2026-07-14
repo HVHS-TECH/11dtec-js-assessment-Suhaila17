@@ -22,7 +22,7 @@ function addOrder(cakeName, cakePrice){
 
 function placeOrder(){
     const userName = document.getElementById("nameField").value;
-    const money = document.getElementById("moneyField").value;
+    const money = Number(document.getElementById("moneyField").value);
 
     if(userName == ""){
         document.getElementById("receipt").innerHTML = "Please enter your name."
@@ -44,6 +44,6 @@ for(let item = 0; item < order.length; item++){
 
 }
 
-document.getElementById("receipt").innerHTML
+document.getElementById("receipt").innerHTML = 
 "<h2>Receipt</h2>" + "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<p> Total: $" + totalPrice + "</p>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
 }
