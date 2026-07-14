@@ -38,3 +38,4 @@ function placeOrder(){
 let change = money - totalPrice;
 let receiptOrder = "";
 
+for
