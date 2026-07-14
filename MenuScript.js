@@ -21,5 +21,5 @@ function addOrder(cakeName, cakePrice){
 }
 
 function placeOrder(){
-    let userName = 
+    let userName = document.getElementById(nameField).value;
 }
