@@ -1,3 +1,5 @@
 console.log("Running MenuScript.js")
 
-const menu={}
+const menu={
+    redVelvet:{}
+}
