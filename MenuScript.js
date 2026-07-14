@@ -23,4 +23,9 @@ function addOrder(cakeName, cakePrice){
 function placeOrder(){
     const userName = document.getElementById(nameField).value;
     const money = document.getElementById(moneyField).value;
+
+    if(userName == ""){
+        document.getElementById("recipt").innerHTML = "Please enter your name."
+
+    }
 }
