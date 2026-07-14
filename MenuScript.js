@@ -26,6 +26,7 @@ function placeOrder(){
 
     if(userName == ""){
         document.getElementById("recipt").innerHTML = "Please enter your name."
-
+        return;
     }
+    
 }
