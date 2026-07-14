@@ -12,7 +12,8 @@ const menuItems = [
 let order = [];
 let totalPrice = 0;
 
-function addOrder(cake){
+function addOrder(cakeName, cakePrice){
+    let cake = {name:cakeName, price:cakePrice};
     order.push(cake);
     totalPrice = totalPrice + cake.price;
     document.getElementById("Order").innerHTML += "<p>" + cake.name + " $" + cake.price + "</p>";
