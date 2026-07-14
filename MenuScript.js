@@ -30,6 +30,7 @@ function placeOrder(){
     }
     
     if(money < totalPrice){
-        document.getElementById("recipt").innerHTML
+        document.getElementById("recipt").innerHTML = "Not enough money."
+        return;
     }
 }
