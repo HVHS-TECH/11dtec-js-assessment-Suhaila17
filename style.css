@@ -134,11 +134,18 @@ nav a:hover{
     color:#555;
 }
 
-
+footer{
+    background:#330414;
+    text-align: center;
+    padding:30px;
+}
 
 footer img{
     width:auto;
     height:90px;
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 
+footer p{
+    color:white;
+}
