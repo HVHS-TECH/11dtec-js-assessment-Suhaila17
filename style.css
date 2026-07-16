@@ -35,3 +35,10 @@ nav a:hover{
     background-position: center;
 }
 
+orderButton{
+    color:#D6B27A;
+    display: inline-block;
+    padding:10px;
+    text-decoration: none;
+    border: 2px solid #D6B27A;
+}
