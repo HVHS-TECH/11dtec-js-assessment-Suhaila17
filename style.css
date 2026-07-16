@@ -11,3 +11,7 @@ body{
     padding: 15px 80px;
 }
 
+.logo img{
+    width:auto;
+    height:70px;
+}
