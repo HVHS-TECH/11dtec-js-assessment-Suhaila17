@@ -100,4 +100,19 @@ nav a:hover{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:35px;
+    margin-top:50px;
+}
+
+.CakeContainer{
+    background:white;
+    border: 1px solid #D6B27A;
+    border-radius:15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.CakeContainer img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
 }
