@@ -93,5 +93,11 @@ nav a:hover{
 .recommended h2{
     font-size:50px;
     color:#3c0517;
-    
+    margin-bottom:10px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:35px;
 }
