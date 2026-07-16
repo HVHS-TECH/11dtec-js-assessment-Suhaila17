@@ -9,6 +9,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 15px 80px;
+    display:flex;
 }
 
 .logo img{
