@@ -71,3 +71,9 @@ nav a:hover{
    background:#D6B27A;
    margin:0px auto 40px;
 }
+
+.About p{
+    line-height: 2;
+    font-size: 20px;
+    color:#555;
+}
