@@ -64,6 +64,9 @@ nav a:hover{
 }
 
 .borderline{
-   
-    
+   border:2px;
+   width:140px;
+   height: 5px;
+   background:#D6B27A;
+   margin:20px
 }
