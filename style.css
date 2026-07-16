@@ -136,5 +136,15 @@ nav a:hover{
 
 footer{
     background:#330414;
-    
+    text-align: center;
+    padding:50px;
+}
+
+footer, logo{
+    width:auto;
+    height:90px;
+}
+
+footer p{
+    color:white;
 }
