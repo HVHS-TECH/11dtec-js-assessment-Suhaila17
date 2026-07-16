@@ -33,6 +33,7 @@ nav a:hover{
     height:630px;
     background-size: cover;
     background-position: center;
+    padding-left: 120px;
 }
 
 .orderButton{
