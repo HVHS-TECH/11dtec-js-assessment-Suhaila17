@@ -121,3 +121,10 @@ nav a:hover{
 .CakeContainer:hover{
     transform: scale(1.03);
 }
+
+.CakeContainer h3{
+    text-align: center;
+    color:#3c0517;
+    margin:10px;
+    font-size:20px;
+}
