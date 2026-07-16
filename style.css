@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     background:#F8F3EC;
      font-family: "Cormorant Garamond", serif;
      color: #2E1A1A;
@@ -15,13 +14,12 @@ body{
 
 .logo img{
     width:auto;
-    height:90px;
-    display:block;
+    height:100px;
 }
 
 nav a{
     text-decoration: none;
     color:white;
-    margin-left:35px;
-    margin-right: 20px;
+    margin-left:40px;
+    font-size: 18px;
 }
