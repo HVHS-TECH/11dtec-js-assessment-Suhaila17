@@ -65,8 +65,8 @@ nav a:hover{
 
 .borderline{
    border:2px;
-   width:140px;
+   width:180px;
    height: 2px;
    background:#D6B27A;
-   margin:20px
+   margin:20px auto 40px;
 }
