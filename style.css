@@ -33,7 +33,6 @@ nav a:hover{
     height:630px;
     background-size: cover;
     background-position: center;
-    padding-left: 120px;
 }
 
 .orderButton{
@@ -44,4 +43,6 @@ nav a:hover{
     border: 1px solid #D6B27A;
     border-radius: 5px;
     background:#330414 ;
+    margin-left: 300px;
+    margin-top: 500px;
 }
