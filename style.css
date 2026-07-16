@@ -128,3 +128,10 @@ nav a:hover{
     margin:10px;
     font-size:20px;
 }
+
+.CakeContainer p{
+    line-height: 1.5;
+    color:#555;
+}
+
+
