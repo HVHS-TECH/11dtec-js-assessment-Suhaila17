@@ -8,17 +8,18 @@ body{
     background:#4A001F;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 5px 80px;
     display:flex;
 }
 
 .logo img{
     width:auto;
-    height:100px;
+    height:90px;
 }
 
 nav a{
     text-decoration: none;
     color:white;
-    margin-left:40px;
+    margin-left:35px;
+    margin-right: 20px;
 }
