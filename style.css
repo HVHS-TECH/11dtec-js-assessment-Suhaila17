@@ -1,3 +1,11 @@
 body{
+    background:#F8F3EC;
      font-family: "Cormorant Garamond", serif;
+     color: #2E1A1A;
+}
+
+.navbar{
+    background:#4A001F;
+    justify-content: space-between;
+    align-items: center;
 }
