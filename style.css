@@ -1,11 +1,12 @@
 body{
+    margin:0;
     background:#F8F3EC;
      font-family: "Cormorant Garamond", serif;
      color: #2E1A1A;
 }
 
 .navbar{
-    background:#320015;
+    background:#340116;
     justify-content: space-between;
     align-items: center;
     padding: 5px 80px;
@@ -29,7 +30,7 @@ nav a:hover{
 
 .Banner{
     background-image: url("image/velvet\ bliss\ banner.png");
-    height:650px;
+    height:640px;
     background-size: cover;
     background-position: center;
 }
