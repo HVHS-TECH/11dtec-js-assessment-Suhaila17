@@ -46,3 +46,8 @@ nav a:hover{
     margin-left: 300px;
     margin-top: 500px;
 }
+
+.orderButton:hover{
+    background: #D6B27A;
+    color:#330414;
+}
