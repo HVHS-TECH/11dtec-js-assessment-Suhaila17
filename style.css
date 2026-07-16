@@ -61,6 +61,7 @@ nav a:hover{
 .About h2{
     font-size: 50px;
     color:#3c0517;
+    margin-bottom: 10px;
 }
 
 .borderline{
@@ -68,5 +69,5 @@ nav a:hover{
    width:180px;
    height: 2px;
    background:#D6B27A;
-   margin:20px auto 40px;
+   margin:0px auto 40px;
 }
