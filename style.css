@@ -195,6 +195,19 @@ footer p{
 
 .menuContainer h3{
     color:#3c0517;
+    margin:10px;
+    font-size:22px;
+}
+
+.menuContainer{
+     color:#3c0517;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+
+.menuContainer button{
+    background:#340116;
+    color:white;
     
 }
 
