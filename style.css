@@ -238,7 +238,7 @@ footer p{
 
 .orderHere h3{
     color: #3c0517;
-    font-size:28px;
+    font-size:22px;
 }
 
 .orderHere input{
@@ -249,5 +249,18 @@ footer p{
     margin-bottom:15px;
     border-radius:5px;
     font-size:18px;
+    box-sizing: border-box;
+
+}
+
+.placeOrder{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size:15px;
+    background: #340116;
+    color:white;
 }
 
