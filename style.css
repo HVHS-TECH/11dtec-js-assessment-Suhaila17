@@ -251,6 +251,14 @@ footer p{
     font-size:19px;
     color:#3c0517;
 }
+
+#receipt{
+    border:1px solid #D6B27A;
+    background-color: #e9e4dc;
+    padding: 15px;
+    border-radius: 6px;
+}
+
 .orderHere h2{
     text-align: center;
     color:#3c0517;
