@@ -165,7 +165,7 @@ footer p{
 .CakeMenu h1{
     text-align: center;
     color:#3c0517;
-    font-size: 60px;
+    font-size: 45px;
     margin-bottom: 10px;
 }
 
@@ -228,6 +228,16 @@ footer p{
     top:20px;
 }
 
+.orderHere h2{
+    text-align: center;
+    color:#3c0517;
+    font-size: 35px;
+    margin-top:0;
+}
 
+.orderHere h3{
+    color: #3c0517;
+}
 
+.orderHere 
 
