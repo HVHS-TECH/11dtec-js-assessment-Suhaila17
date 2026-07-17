@@ -161,3 +161,9 @@ footer p{
     grid-template-columns: repeat(3, 1fr);
     gap:20px;
 }
+
+.CakeMenu h1{
+    text-align: center;
+    color:#3c0517;
+    
+}
