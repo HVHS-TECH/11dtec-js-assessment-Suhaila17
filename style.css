@@ -239,7 +239,10 @@ footer p{
     margin-bottom:20px;
 }
 
-
+#total{
+    font-size:32px;
+    color:#3c0517;
+}
 .orderHere h2{
     text-align: center;
     color:#3c0517;
