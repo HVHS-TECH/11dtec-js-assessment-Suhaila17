@@ -154,7 +154,10 @@ footer p{
     color:white;
 }
 
-.menu{
-    width:60%;
-    margin
+.CakeMenu{
+    width:90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
 }
