@@ -242,7 +242,7 @@ footer p{
 }
 
 #total{
-    font-size:32px;
+    font-size:22px;
     color:#3c0517;
 }
 .orderHere h2{
@@ -254,8 +254,9 @@ footer p{
 
 .orderHere h3{
     color: #3c0517;
-    font-size:22px;
+    font-size:23px;
 }
+
 
 .orderHere input{
     width:100%;
