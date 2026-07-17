@@ -17,7 +17,7 @@ function addOrder(cakeName, cakePrice){
     order.push(cake);
     totalPrice = totalPrice + cake.price;
     document.getElementById("Order").innerHTML += "<p>" + cake.name + " $" + cake.price + "</p>";
-    document.getElementById("total").innerHTML = "<h3>TOTAL: $" + totalPrice + "</h3>";
+    document.getElementById("total").innerHTML = "<hr>"+"<h3>TOTAL: $" + totalPrice + "</h3>";
 }
 
 function placeOrder(){
