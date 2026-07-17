@@ -242,19 +242,23 @@ footer p{
 }
 
 #total{
-    font-size:22px;
+    font-size:19px;
     color:#3c0517;
+}
+
+#receipt h3{
+    
 }
 .orderHere h2{
     text-align: center;
     color:#3c0517;
-    font-size: 35px;
+    font-size: 30px;
     margin-top:0;
 }
 
 .orderHere h3{
     color: #3c0517;
-    font-size:20px;
+    font-size:19px;
 }
 
 
