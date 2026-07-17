@@ -239,5 +239,8 @@ footer p{
     color: #3c0517;
 }
 
-.orderHere 
+.orderHere input{
+    width:100%;
+    padding:12px;
+}
 
