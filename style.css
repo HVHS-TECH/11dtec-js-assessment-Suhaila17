@@ -163,7 +163,8 @@ footer p{
 .CakeMenu h1{
     text-align: center;
     color:#3c0517;
-
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
 .menuLayout{
