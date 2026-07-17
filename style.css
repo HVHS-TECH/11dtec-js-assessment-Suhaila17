@@ -157,10 +157,7 @@ footer p{
 .CakeMenu{
     width:90%;
     margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,auto);
-    gap:20px;
+
 }
 
 .CakeMenu h1{
@@ -168,3 +165,12 @@ footer p{
     color:#3c0517;
 
 }
+
+.menuLayout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,auto);
+    gap:40px;
+}
+
+
