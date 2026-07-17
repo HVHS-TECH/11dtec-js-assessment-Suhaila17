@@ -230,6 +230,7 @@ footer p{
     margin-bottom:40px;
     margin-right:20px ;
     margin-left:20px;
+    position: sticky;
 }
 
 #Order{
