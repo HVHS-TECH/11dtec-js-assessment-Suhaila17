@@ -319,6 +319,7 @@ footer p{
     border:none;
 }
 
-.rjs{
-    border:1px solid #D6B27A;
+hr{
+    border:none;
+    border-top: 1px solid #340116;
 }
