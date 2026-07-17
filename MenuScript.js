@@ -17,7 +17,7 @@ function addOrder(cakeName, cakePrice){
     order.push(cake);
     totalPrice = totalPrice + cake.price;
     document.getElementById("Order").innerHTML += "<p>" + cake.name + " $" + cake.price + "</p>";
-    document.getElementById("total").innerHTML = "Total: $" + totalPrice;
+    document.getElementById("total").innerHTML = "<h3>TOTAL: $" + totalPrice + "</h3>";
 }
 
 function placeOrder(){
@@ -47,7 +47,7 @@ function placeOrder(){
     }
 
    document.getElementById("receipt").innerHTML = 
-   "<h3>RECEIPT</h3>" +"<hr>"+ "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<p> Total: $" + totalPrice + "</p>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
+   "<h3>RECEIPT</h3>" +"<hr>"+ "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<hr>" + "<h3> TOTAL: $" + totalPrice + "</h3>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
    
 
 
