@@ -157,10 +157,10 @@ footer p{
 .menu{
     width:90%;
     margin: 50px auto;
+    display: grid;
     grid-template-columns:3fr, 1fr;
     gap:40px;
     align-items:start;
-    display: grid;
 }
 
 .CakeMenu h1{
