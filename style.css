@@ -160,6 +160,7 @@ footer p{
     grid-template-columns:3fr, 1fr;
     gap:40px;
     align-items:start;
+    display: grid;
 }
 
 .CakeMenu h1{
