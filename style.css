@@ -262,5 +262,28 @@ footer p{
     font-size:15px;
     background: #340116;
     color:white;
+    font-family: "Cormorant Garamond", serif;
 }
 
+.placeOrder:hover{
+    background-color: #D6B27A;
+    color:#340116;
+}
+
+.resetOrder{
+    width:100%;
+    padding:12px;
+    border:1px solid #340116;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size:15px;
+    background:#F8F3EC;
+    color:#340116;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.resetOrder:hover{
+   background-color: #D6B27A;
+    color:#340116;
+    border:none;
+}
