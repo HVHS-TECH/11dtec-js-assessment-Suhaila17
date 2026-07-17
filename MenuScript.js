@@ -35,17 +35,20 @@ function placeOrder(){
     }
 
 
-let change = money - totalPrice;
-let receiptOrder = "";
+   let change = money - totalPrice;
+   let receiptOrder = "";
 
-for(let item = 0; item < order.length; item++){
-    receiptOrder += order[item].name + " $" + order[item].price + "<br>";
+   for(let item = 0; item < order.length; item++){
+     receiptOrder += order[item].name + " $" + order[item].price + "<br>";
+    }
 
+   document.getElementById("receipt").innerHTML = 
+   "<h2>Receipt</h2>" + "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<p> Total: $" + totalPrice + "</p>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
+   
+   if(order.length == 0){
+   document.getElementById("receipt").innerHTML = 
+   }
 
-}
-
-document.getElementById("receipt").innerHTML = 
-"<h2>Receipt</h2>" + "<p>Name: " + userName + "</p>" + "<p>" + receiptOrder + "</p>" + "<p> Total: $" + totalPrice + "</p>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>"
 }
 
 function resetOrder(){
