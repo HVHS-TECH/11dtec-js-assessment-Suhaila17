@@ -227,6 +227,9 @@ footer p{
     padding:25px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     top:20px;
+    margin-bottom:40px;
+    margin-right:20px ;
+    margin-left:20px;
 }
 
 .orderHere h2{
