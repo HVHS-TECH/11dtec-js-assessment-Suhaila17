@@ -18,7 +18,7 @@ let order = [];
 let totalPrice = 0;
 
 
-
+//Add to order
 function addOrder(cakeName, cakePrice){
     let cake = {name:cakeName, price:cakePrice};
     order.push(cake);
@@ -27,6 +27,7 @@ function addOrder(cakeName, cakePrice){
     document.getElementById("total").innerHTML = "<hr>"+"<h3>TOTAL: $" + totalPrice + "</h3>";
 }
 
+//Place order
 function placeOrder(){
     const userName = document.getElementById("nameField").value;
     const money = Number(document.getElementById("moneyField").value);
