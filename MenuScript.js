@@ -3,6 +3,10 @@ MenuScript.js
 ****************************/
 console.log("Running MenuScript.js")
 
+
+/****************************
+Variables
+****************************/
 //Menu Items
 const menuItems = [
   {name: "Red Velvet Cake", price: 20},
@@ -18,6 +22,9 @@ let order = [];
 let totalPrice = 0;
 
 
+/****************************
+Functions
+****************************/
 //Add to order
 function addOrder(cakeName, cakePrice){
     let cake = {name:cakeName, price:cakePrice};
