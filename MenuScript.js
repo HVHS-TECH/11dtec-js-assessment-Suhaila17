@@ -17,15 +17,17 @@ const menuItems = [
   {name:"White Velvet Bliss Cake", price:26}
 ];
 
-//Variables
+
+//variabl:stores the order
 let order = [];
+//Variable:stores the total price
 let totalPrice = 0;
 
 
 /****************************
 Functions
 ****************************/
-//Add to order
+//Adds the cake to customer order
 function addOrder(cakeName, cakePrice){
     let cake = {name:cakeName, price:cakePrice};
     order.push(cake);
@@ -34,7 +36,7 @@ function addOrder(cakeName, cakePrice){
     document.getElementById("total").innerHTML = "<hr>"+"<h3>TOTAL: $" + totalPrice + "</h3>";
 }
 
-//Place order
+//Places the customer order and shows the receipt
 function placeOrder(){
     const userName = document.getElementById("nameField").value;
     const money = Number(document.getElementById("moneyField").value);
@@ -68,6 +70,7 @@ function placeOrder(){
 
 }
 
+//resets the order
 function resetOrder(){
     order = [];
     totalPrice = 0;
