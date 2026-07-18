@@ -1,5 +1,6 @@
 console.log("Running MenuScript.js")
 
+//Menu Items
 const menuItems = [
   {name: "Red Velvet Cake", price: 20},
   {name:"Strawberry Ganache Cheesecake", price:22},
