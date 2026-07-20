@@ -54,7 +54,7 @@ function placeOrder(){
         document.getElementById("receipt").innerHTML = "Not enough money."
         return;
     }
-
+`SqqqqqqqqqqqqqQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS`
 
    let change = money - totalPrice;
    let receiptOrder = "";
