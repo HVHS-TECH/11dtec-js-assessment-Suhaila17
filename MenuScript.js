@@ -49,6 +49,8 @@ function placeOrder(){
         document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
+
+    if(isNAN(userName))
     
     if(money < totalPrice){
         document.getElementById("receipt").innerHTML = "Not enough money."
