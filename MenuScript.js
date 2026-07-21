@@ -40,21 +40,18 @@ function addOrder(cakeName, cakePrice){
 function placeOrder(){
     const userName = document.getElementById("nameField").value;
     const money = Number(document.getElementById("moneyField").value);
-    const   receipt = document.getElementById("receipt").innerHTML
 
     if(order.length == 0){
-        receipt = "Please add a cake before placing your order";
+        document.getElementById("receipt").innerHTML = "Please add a cake before placing your order";
     }
 
     if(userName == ""){
-        receipt = "Please enter your name."
+        document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
-
-    if(isNAN(userName))
     
     if(money < totalPrice){
-        receipt = "Not enough money."
+        document.getElementById("receipt").innerHTML = "Not enough money."
         return;
     }
 
