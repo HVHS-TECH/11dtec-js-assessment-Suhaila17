@@ -43,6 +43,7 @@ function placeOrder(){
 
     if(order.length == 0){
         document.getElementById("receipt").innerHTML = "Please add a cake before placing your order";
+        return;
     }
 
     if(userName == ""){
