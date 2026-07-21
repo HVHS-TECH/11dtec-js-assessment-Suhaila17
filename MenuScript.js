@@ -66,8 +66,6 @@ function placeOrder(){
 
    document.getElementById("receipt").innerHTML = 
    "<h3>RECEIPT</h3>"+"<hr>"+"<p>Name: " + userName + "</p>"+ "<p>" + receiptOrder + "</p>" + "<hr>" + "<h3> TOTAL: $" + totalPrice + "</h3>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>";
-   
-
 
 }
 
