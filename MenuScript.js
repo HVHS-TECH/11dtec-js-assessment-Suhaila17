@@ -55,6 +55,11 @@ function placeOrder(){
         document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
+
+    if(money == ""){
+        document.getElementById("receipt").innerHTML = "Please enter your Money."
+        return;
+    }
     
     //checks if the customer put enough money
     if(money < totalPrice){
