@@ -38,19 +38,25 @@ function addOrder(cakeName, cakePrice){
 
 //Places the customer order and shows the receipt
 function placeOrder(){
+    // Gets customer name and money from input
     const userName = document.getElementById("nameField").value;
     const money = Number(document.getElementById("moneyField").value);
 
+    //Checks if the customer hasn't ordered anything
     if(order.length == 0){
         document.getElementById("receipt").innerHTML = "Please add a cake before placing your order";
+
+        //stops the function from keep on continuing with the code
         return;
     }
 
+    //Checks if the customer hasn't input their name
     if(userName == ""){
         document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
     
+    //checks if the customer put enough money
     if(money < totalPrice){
         document.getElementById("receipt").innerHTML = "Not enough money."
         return;
