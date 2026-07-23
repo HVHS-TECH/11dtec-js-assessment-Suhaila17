@@ -66,10 +66,12 @@ function placeOrder(){
    let change = money - totalPrice;
    let receiptOrder = "";
 
+   // loops through all of the cake the customer orders
    for(let item = 0; item < order.length; item++){
      receiptOrder += order[item].name + " $" + order[item].price + "<br>";
     }
-
+ 
+    // Shows the receipt
    document.getElementById("receipt").innerHTML = 
    "<h3>RECEIPT</h3>"+"<hr>"+"<p>Name: " + userName + "</p>"+ "<p>" + receiptOrder + "</p>" + "<hr>" + "<h3> TOTAL: $" + totalPrice + "</h3>" + "<p> Money given: $" + money + "</P>" + "<p>Change: $" + change + "</p>";
 
