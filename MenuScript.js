@@ -55,7 +55,8 @@ function placeOrder(){
         document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
-
+    
+    //Checks if the 
     if(money == ""){
         document.getElementById("receipt").innerHTML = "Please remember to pay."
         return;
