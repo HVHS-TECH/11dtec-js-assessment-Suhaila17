@@ -56,7 +56,7 @@ function placeOrder(){
         return;
     }
     
-    //Checks if the 
+    //Checks if the Money form is filled
     if(money == ""){
         document.getElementById("receipt").innerHTML = "Please remember to pay."
         return;
