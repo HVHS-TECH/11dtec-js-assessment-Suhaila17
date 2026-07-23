@@ -52,12 +52,12 @@ function placeOrder(){
 
     //Checks if the customer hasn't input their name
     if(userName == ""){
-        document.getElementById("receipt").innerHTML = "please remember to pay."
+        document.getElementById("receipt").innerHTML = "Please enter your name."
         return;
     }
 
     if(money == ""){
-        document.getElementById("receipt").innerHTML = "Please enter your Money."
+        document.getElementById("receipt").innerHTML = "Please remember to pay."
         return;
     }
     
